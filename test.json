@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Test video",
+    "category": "Action",
+    "video": "http://video/file.mp4"
+  },
+  {
+    "name": "Test serial",
+    "category": "Drama",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "name": "Intro",
+            "video": "http://episodes/file.mp4"
+          }
+        ]
+      }
+    ]
+  }
+]
