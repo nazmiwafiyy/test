@@ -1,1 +1,63 @@
-t
+<playlist>
+  <title>Featured Content</title>
+  <description>A collection of recommended content</description>
+  <categories>
+    <category name="Movies">
+      <items>
+        <item>
+          <title>Movie Title 1</title>
+          <description>Description of the first movie</description>
+          <thumbnail>https://example.com/thumbnail1.jpg</thumbnail>
+          <video_url>https://example.com/video1.mp4</video_url>
+        </item>
+        <item>
+          <title>Movie Title 2</title>
+          <description>Description of the second movie</description>
+          <thumbnail>https://example.com/thumbnail2.jpg</thumbnail>
+          <video_url>https://example.com/video2.mp4</video_url>
+        </item>
+      </items>
+    </category>
+    <category name="TV Shows">
+      <items>
+        <item>
+          <title>TV Show Title 1</title>
+          <description>Description of the first TV show</description>
+          <thumbnail>https://example.com/thumbnail3.jpg</thumbnail>
+          <video_url>https://example.com/video3.mp4</video_url>
+        </item>
+        <item>
+          <title>TV Show Title 2</title>
+          <description>Description of the second TV show</description>
+          <thumbnail>https://example.com/thumbnail4.jpg</thumbnail>
+          <video_url>https://example.com/video4.mp4</video_url>
+        </item>
+      </items>
+    </category>
+    <category name="Series">
+      <items>
+        <item>
+          <title>Series Title 1</title>
+          <description>Description of the series</description>
+          <thumbnail>https://example.com/series_thumbnail.jpg</thumbnail>
+          <series>true</series>
+          <episodes>
+            <episode>
+              <title>Episode 1</title>
+              <description>Description of Episode 1</description>
+              <thumbnail>https://example.com/episode1_thumbnail.jpg</thumbnail>
+              <video_url>https://example.com/episode1.mp4</video_url>
+            </episode>
+            <episode>
+              <title>Episode 2</title>
+              <description>Description of Episode 2</description>
+              <thumbnail>https://example.com/episode2_thumbnail.jpg</thumbnail>
+              <video_url>https://example.com/episode2.mp4</video_url>
+            </episode>
+          </episodes>
+        </item>
+      </items>
+    </category>
+  </categories>
+</playlist>
+
