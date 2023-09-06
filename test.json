@@ -1,23 +1,67 @@
-[
-  {
-    "name": "Test video",
-    "category": "Action",
-    "video": "http://video/file.mp4"
-  },
-  {
-    "name": "Test serial",
-    "category": "Drama",
-    "seasons": [
+{
+  "playlist": {
+    "title": "Featured Content",
+    "description": "A collection of recommended content",
+    "categories": [
       {
-        "season": 1,
-        "episodes": [
+        "name": "Movies",
+        "items": [
           {
-            "episode": 1,
-            "name": "Intro",
-            "video": "http://episodes/file.mp4"
+            "title": "Movie Title 1",
+            "description": "Description of the first movie",
+            "thumbnail": "https://example.com/thumbnail1.jpg",
+            "video_url": "https://example.com/video1.mp4"
+          },
+          {
+            "title": "Movie Title 2",
+            "description": "Description of the second movie",
+            "thumbnail": "https://example.com/thumbnail2.jpg",
+            "video_url": "https://example.com/video2.mp4"
+          }
+        ]
+      },
+      {
+        "name": "TV Shows",
+        "items": [
+          {
+            "title": "TV Show Title 1",
+            "description": "Description of the first TV show",
+            "thumbnail": "https://example.com/thumbnail3.jpg",
+            "video_url": "https://example.com/video3.mp4"
+          },
+          {
+            "title": "TV Show Title 2",
+            "description": "Description of the second TV show",
+            "thumbnail": "https://example.com/thumbnail4.jpg",
+            "video_url": "https://example.com/video4.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Series",
+        "items": [
+          {
+            "title": "Series Title 1",
+            "description": "Description of the series",
+            "thumbnail": "https://example.com/series_thumbnail.jpg",
+            "series": true,
+            "episodes": [
+              {
+                "title": "Episode 1",
+                "description": "Description of Episode 1",
+                "thumbnail": "https://example.com/episode1_thumbnail.jpg",
+                "video_url": "https://example.com/episode1.mp4"
+              },
+              {
+                "title": "Episode 2",
+                "description": "Description of Episode 2",
+                "thumbnail": "https://example.com/episode2_thumbnail.jpg",
+                "video_url": "https://example.com/episode2.mp4"
+              }
+            ]
           }
         ]
       }
     ]
   }
-]
+}
