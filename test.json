@@ -1,27 +1,64 @@
-[
 {
-    "name": "Test video",
-    "category": "Action",
-    
-    "video": "http://video/file.mp4",
-},
-{
-    "name": "Test serial",
-    "category": "Drama",
-    
-    "seasons": [
-        {
-            "season": 1,
-            
-            "episodes": [
-                {
-                    "episode": 1,
-                    "name": "Intro",
-                    
-                    "video": "http://episodes/file.mp4"
-                }
-            ]
-        }
-    ]
+   "live_categories":[
+      {
+         "category_id":"1",
+         "category_name":"Sports",
+         "channels":[
+            {
+               "id":"101",
+               "name":"ESPN",
+               "stream_url":"http://example.com/espn",
+               "stream_icon":"http://example.com/icons/espn.png",
+               "epg_channel_id":"101"
+            },
+            {
+               "id":"102",
+               "name":"Fox Sports",
+               "stream_url":"http://example.com/foxsports",
+               "stream_icon":"http://example.com/icons/foxsports.png",
+               "epg_channel_id":"102"
+            }
+         ]
+      },
+      {
+         "category_id":"2",
+         "category_name":"Entertainment",
+         "channels":[
+            {
+               "id":"201",
+               "name":"HBO",
+               "stream_url":"http://example.com/hbo",
+               "stream_icon":"http://example.com/icons/hbo.png",
+               "epg_channel_id":"201"
+            },
+            {
+               "id":"202",
+               "name":"Netflix",
+               "stream_url":"http://example.com/netflix",
+               "stream_icon":"http://example.com/icons/netflix.png",
+               "epg_channel_id":"202"
+            }
+         ]
+      }
+   ],
+   "vod_categories":[
+      {
+         "category_id":"1",
+         "category_name":"Movies",
+         "movies":[
+            {
+               "id":"1001",
+               "name":"Avatar",
+               "stream_url":"http://example.com/avatar",
+               "cover":"http://example.com/covers/avatar.jpg"
+            },
+            {
+               "id":"1002",
+               "name":"Inception",
+               "stream_url":"http://example.com/inception",
+               "cover":"http://example.com/covers/inception.jpg"
+            }
+         ]
+      }
+   ]
 }
-]
