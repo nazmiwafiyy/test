@@ -1,0 +1,8 @@
+{
+    "name": "Hexated providers repository (b4byhuey)",
+    "description": "Hexated Repository",
+    "manifestVersion": 1,
+    "pluginLists": [
+      "https://raw.githubusercontent.com/b4byhuey/cloudstream-extensions-hexated/builds/plugins.json"
+    ]
+  }
